@@ -15,3 +15,5 @@ INSERT INTO sailsman VALUES (5006,  "Mc Lyon", "Paris", 0.14);
 INSERT INTO sailsman VALUES (5007, "Paul Adam", "Rome", 0.13);
 INSERT INTO sailsman VALUES (5003, "Lauson Hen", "San Jose", 0.12);
 SELECT * FROM sailsman;
+
+SELECT name, commision FROM sailsman;
