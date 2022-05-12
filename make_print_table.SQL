@@ -17,3 +17,4 @@ INSERT INTO sailsman VALUES (5003, "Lauson Hen", "San Jose", 0.12);
 SELECT * FROM sailsman;
 
 SELECT name, commision FROM sailsman;
+SELECT name, city FROM sailsman WHERE city = "PARIS";
