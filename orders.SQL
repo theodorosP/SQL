@@ -23,3 +23,4 @@ INSERT INTO orders VALUES (70013, 3045.6, "2012-04-25", 3002, 5001);
 
 SELECT ord_date, salesman_id, ord_no, purch_amt FROM orders;
 SELECT salesman_id FROM orders;
+SELECT * FROM orders WHERE  salesman_id = 5002 ;
