@@ -18,5 +18,3 @@ INSERT INTO customer VALUES (3003, "Jozy Altidor", "Moscow", 200, 5007);
 INSERT INTO customer VALUES ( 3001, "Brad Guzan", "London",  ,5005);
 
 SELECT * FROM customer;
-
-SELECT cust_name, grade FROM customer WHERE grade = 200;
