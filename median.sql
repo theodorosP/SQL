@@ -24,7 +24,6 @@ INSERT INTO People VALUES (190, 'A', 'Pan', 'Orlando');
 
 
 
-SELECT SUM(ID) FROM (SELECT ID FROM People LIMIT 4) as subquery;
 
 
 
@@ -59,4 +58,3 @@ DELIMITER ;
 
 CALL CompareNumbers(@size);
 
-SELECT ID AS total_records FROM (select ID from People as test limit 4) as subquery;
